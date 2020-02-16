@@ -6,11 +6,18 @@
 
 @section('content')
 <br>
+<br>
+<br>
+<br>
 <div class="row justify-content-center">
     <div class="col-md-8">
         <div class="card">
-            <div class="card-header">{{ __('Insert') }}</div>
-            <div class="card-body">
+            <!-- <div class="card-header">{{ __('Insert') }}</div> -->
+            <div class="card-header-custom" style="margin-top: 8%; text-align: center;">
+            <h4 style="color: #2c3550; font-family: poppins;">Masukkan Data Mahasiswa</h4>
+            </div>
+            <div class="card-body" style="margin-top: 2%; margin-bottom: 10%;">
+
                 <form method="POST" action="{{ route('admin.mahasiswa.store') }}">
                     @csrf
                     <div class="form-group row">

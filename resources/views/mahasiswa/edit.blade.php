@@ -2,16 +2,29 @@
 
 @section('content')
 <br>
+<br>
+<br>
+<br>
 <div class="container-fluid">
 	<div class="row justify-content-center">
 	    <div class="col-md-8">
 	        <div class="card">
-	            <div class="card-header">{{ __('Edit Data Mahasiswa') }}</div>
-	            <div class="card-body">
+	            <!-- <div class="card-header">{{ __('Edit Data Mahasiswa') }}</div> -->
+	            <div class="card-header-custom" style="margin-top: 8%; text-align: center;">
+	            <h4 style="color: #646464; font-family: poppins;">Edit Data Mahasiswa</h4>
+	            </div>
+	            
+	            <div class="col-md-9" style="margin: auto; margin-top: 4%;">
+			            <h5 style="color: #646464;">Data Diri</h5>
+			            <p style="font-size: 14px; color: #848482; font-style: normal;">Data yang diisikan di form ini bersifat pribadi dan tidak akan dapat diakses oleh pihak lain selain pihak yang bertanggungjawab dalam adminisitrasi beasiswa.</p>
+	            </div>
+
+	            <div class="card-body" style="margin-bottom: 10%;">
+
 	                <form method="POST" action="{{ route('mahasiswa.update') }}" enctype="multipart/form-data">
 	                    @method('PATCH')
 	                    @csrf
-	                    <div class="form-group row">
+	                    <div class="form-group row" style="margin-top: 2%;">
 	                        <label class="col-md-4 col-form-label text-md-right">{{ __('Nama Mahasiswa') }}</label>
 	                        <div class="col-md-6">
 	                            <input id="nama" type="text" class="form-control{{ $errors->has('nama') ? ' is-invalid' : '' }}" name="nama" value="{{ $mahasiswa->nama }}" required autofocus>
@@ -162,4 +175,7 @@
 	    </div>
 	</div>
 </div>
+<br>
+<br>
+<br>
 @endsection
