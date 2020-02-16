@@ -6,6 +6,7 @@
     <title>Sistem Pengajuan Beasiswa</title>        
     <link rel="stylesheet" type="text/css" href="{{ asset('/bootstrap/css/bootstrap.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/style-home.css') }}">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     @yield('stylesheets')
   </head>
   <body>
