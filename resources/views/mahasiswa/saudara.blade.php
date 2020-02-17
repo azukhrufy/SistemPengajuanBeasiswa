@@ -1,7 +1,14 @@
 @extends('template')
 
 @section('content')
-<br>
+<style>
+td{
+	margin: auto;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 10px;
+}
+</style>
 <div class="container-fluid">
 	@if (\Session::has('success'))
 	<div class="row">
@@ -16,6 +23,9 @@
 	    </div>
 	</div>
 	@endif
+	<br>
+	<br>
+	<br>
 	<div class="table-responsive">
 		<table class="table table-hover table-bordered">
 		  <thead>

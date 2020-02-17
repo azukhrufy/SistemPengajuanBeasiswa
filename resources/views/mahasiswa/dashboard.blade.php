@@ -18,7 +18,7 @@
 	<br>
 	<div class="row justify-content-center">
 		<div class="col-lg-3">
-			<div class="card" style="border-radius: 30px; margin-bottom: 10px;">
+			<div class="card" style="border-radius: 15px; margin-bottom: 10%;">
 				<br>
 				<img src="{{asset('img/list.svg')}}" alt="Card image cap" width="200px" height="200px" style="margin:auto;">
 				<div class="card-body">
@@ -28,7 +28,7 @@
 			</div>
 		</div>
 		<div class="col-lg-3">
-			<div class="card" style="border-radius: 30px; margin-bottom: 10px;">
+			<div class="card" style="border-radius: 15px; margin-bottom: 10%;">
 				<br>
 				<img src="{{asset('img/datadiri.svg')}}" alt="Card image cap" width="200px" height="200px" style="margin:auto;">
 				<div class="card-body">
@@ -38,7 +38,7 @@
 			</div>
 		</div>
 		<div class="col-lg-3">
-			<div class="card" style="border-radius: 30px; margin-bottom: 10px;">
+			<div class="card" style="border-radius: 15px; margin-bottom: 10%;">
 				<br>
 				<img src="{{asset('img/keluarga.svg')}}" alt="Card image cap" width="200px" height="200px" style="margin:auto;">
 				<div class="card-body">
@@ -48,19 +48,19 @@
 			</div>
 		</div>
 		<div class="col-lg-3">
-			<div class="card" style="border-radius: 30px; margin-bottom: 10px;">
+			<div class="card" style="border-radius: 15px; margin-bottom: 10%;">
 				<br>
-				<img src="{{asset('img/datadiri.svg')}}" alt="Card image cap" width="200px" height="200px" style="margin:auto;">
+				<img src="{{asset('img/datasodara.svg')}}" alt="Card image cap" width="200px" height="200px" style="margin:auto;">
 				<div class="card-body">
-					<h5 class="card-title" style="text-align: center;">Data Saudara Mahasiswa</h5>
-					<a href="{{ route('mahasiswa.saudara') }}" class="btn btn-primary">Data Saudara Mahasiswa</a>
+					<h5 class="card-title" style="text-align: center; font-size: 19px;">Data Saudara Mahasiswa</h5>
+					<a href="{{ route('mahasiswa.saudara') }}" class="btn btn-primary" style="font-size: 16px;">Data Saudara Mahasiswa</a>
 				</div>
 			</div>
 		</div>	
 		<div class="col-lg-3">
-			<div class="card" style="border-radius: 30px; margin-bottom: 10px;">
+			<div class="card" style="border-radius: 15px; margin-bottom: 10%;">
 				<br>
-				<img src="{{asset('img/ganti.svg')}}" alt="Card image cap" width="200px" height="200px" style="margin:auto;">
+				<img src="{{asset('img/berkaswajib.svg')}}" alt="Card image cap" width="200px" height="200px" style="margin:auto;">
 				<div class="card-body">
 					<h5 class="card-title" style="text-align: center;">Berkas Wajib</h5>
 					<a href="{{ route('mahasiswa.berkas.wajib') }}" class="btn btn-primary">Berkas Wajib</a>
@@ -69,9 +69,9 @@
 		</div>
 
 		<div class="col-lg-3">
-			<div class="card" style="border-radius: 30px; margin-bottom: 10px;">
+			<div class="card" style="border-radius: 15px; margin-bottom: 10%;">
 				<br>
-				<img src="{{asset('img/ganti.svg')}}" alt="Card image cap" width="200px" height="200px" style="margin:auto;">
+				<img src="{{asset('img/sertifikatwajib.svg')}}" alt="Card image cap" width="200px" height="200px" style="margin:auto;">
 				<div class="card-body">
 					<h5 class="card-title" style="text-align: center;">Sertifikat Wajib</h5>
 					<a href="{{ route('mahasiswa.sertifikat.wajib') }}" class="btn btn-primary">Sertifikat Wajib</a>
@@ -79,7 +79,7 @@
 			</div>
 		</div>
 		<div class="col-lg-3">
-			<div class="card" style="border-radius: 30px; margin-bottom: 10px;">
+			<div class="card" style="border-radius: 15px; margin-bottom: 10%;">
 				<br>
 				<img src="{{asset('img/ganti.svg')}}" alt="Card image cap" width="200px" height="200px" style="margin:auto;">
 				<div class="card-body">
@@ -89,9 +89,9 @@
 			</div>
 		</div>
 		<div class="col-lg-3">
-			<div class="card" style="border-radius: 30px; margin-bottom: 10px;">
+			<div class="card" style="border-radius: 15px; margin-bottom: 10%;">
 				<br>
-				<img src="{{asset('img/ganti.svg')}}" alt="Card image cap" width="200px" height="200px" style="margin:auto;">
+				<img src="{{asset('img/sertifikatprestasi.svg')}}" alt="Card image cap" width="200px" height="200px" style="margin:auto;">
 				<div class="card-body">
 					<h5 class="card-title" style="text-align: center;">Sertifikat Prestasi</h5>
 					<a href="{{ route('mahasiswa.sertifikat.prestasi') }}" class="btn btn-primary">Sertifikat Prestasi</a>

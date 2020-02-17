@@ -34,7 +34,7 @@ p{
 						<img src="{{ asset('img/avatar.png') }}" height="150px">
 						<h5>{{$mahasiswa->nama}}</h5>
 						<h7 style="font-family: 'Open Sans', sans-serif; color: #4b4f56;">Mahasiswa</h7>
-						<h6>{{ $mahasiswa->nim }}</h6>
+						<h5>{{ $mahasiswa->nim }}</h5>
 					</div>
 					<div class="col-md-8" style="margin-left: 5%;">
 

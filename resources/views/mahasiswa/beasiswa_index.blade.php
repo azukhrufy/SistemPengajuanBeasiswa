@@ -61,6 +61,7 @@
 
 
 @section('content')
+
 @foreach($listBeasiswa as $key => $beasiswa)
 	<div class="card" style="margin: 3%;">
 		<div class="card-body">
